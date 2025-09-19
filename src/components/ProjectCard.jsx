@@ -4,14 +4,16 @@ export default function ProjectCard({ title, description, image, skills, status,
       onClick={onClick}
       className="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:-translate-y-1"
     >
-      {/* Image */}
-      <div className="w-full h-40 overflow-hidden rounded-t-xl">
-        <img 
-          src={image} 
-          alt={title} 
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-        />
-      </div>
+      {/* Image (optional) */}
+      {image && (
+        <div className="w-full h-40 overflow-hidden rounded-t-xl">
+          <img 
+            src={image} 
+            alt={title} 
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      )}
 
       {/* Content */}
       <div className="p-5">

@@ -21,11 +21,11 @@ export default function About() {
         viewport={{ once: true }}
       >
         <p className="text-lg leading-relaxed">
-            I'm <strong>Siddharth Rahane</strong>, a web developer and tech enthusiast who loves building websites and learning new things. I enjoy working on creative projects, solving problems, and improving my skills every day.
+            I'm <strong>Rishikesh Wakchaure</strong>, an IT graduate with hands-on project experience and a strong problem-solving mindset. I enjoy building practical solutions, collaborating in teams, and continuously learning new technologies.
         </p>
 
         <p className="mt-4 text-lg leading-relaxed">
-            I’m also passionate about Artificial Intelligence and Machine Learning. I like experimenting with Python libraries to build smart applications and data-driven solutions. When I'm not coding, I enjoy exploring new tools and connecting with other developers. I'm always open to new opportunities and collaborations!
+            Currently working as an <strong>Associate Software Developer Intern</strong> at Kodeo Software Technology Pvt. Ltd. I work across the stack using JavaScript/React (web and React Native) and Node.js, with experience in databases and cloud tools. My interests include full‑stack development and applying ML where it adds real value.
         </p>
 
       </motion.div>
@@ -37,12 +37,10 @@ export default function About() {
         transition={{ duration: 0.6, delay: 0.5 }}
         viewport={{ once: true }}
       >
-        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow">
-          🎮 I enjoy strategy games and solving puzzles
-        </div>
-        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow">
-          🎧 I love lo-fi music while coding
-        </div>
+        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow">💻 Java, Python, React, JavaScript</div>
+        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow">🗄️ MongoDB, SQL • Git/GitHub</div>
+        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow">☁️ AWS, Docker (Basics)</div>
+        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow">🤝 Teamwork, Communication</div>
 
 
       </motion.div>

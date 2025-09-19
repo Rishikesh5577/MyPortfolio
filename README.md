@@ -1,6 +1,6 @@
 "# MyPortfolio"
 
-# 🚀 Siddharth Rahane – Developer Portfolio
+# 🚀 Rishikesh Wakchaure – Developer Portfolio
 
 Welcome to my **personal portfolio website**, built using modern frontend tools. This site showcases my projects, tech stack, resume, and a contact form connected via EmailJS.
 \

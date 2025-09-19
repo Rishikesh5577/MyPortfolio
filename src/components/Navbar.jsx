@@ -29,7 +29,7 @@ export default function Navbar({ onShowCertificates, onShowHome }) {
           }}
         >
           <span className="bg-gray-900 text-white px-3 py-1 rounded shadow">
-            Siddharth
+            Rishikesh
           </span>
         </h1>
 

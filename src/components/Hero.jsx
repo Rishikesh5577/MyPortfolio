@@ -1,8 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import Profile from "../assets/profile.jpg";
-import Resume from "../assets/resume.pdf"; // Ensure you have a resume file in the assets folder
+import Profile from "../assets/photo.png";
+// Resume will use an external Drive link for Rishikesh
 
 export default function Hero() {
   return (
@@ -18,7 +18,7 @@ export default function Hero() {
       >
         <img
           src={Profile}
-          alt="Siddharth Rahane"
+          alt="Rishikesh Wakchaure"
           className="w-full h-full object-cover"
         />
       </motion.div>
@@ -33,18 +33,19 @@ export default function Hero() {
             textShadow: "0px 0px 15px rgba(59, 130, 246, 0.7)", // subtle blue glow
           }}
         >
-          Siddharth Rahane
+          Rishikesh Wakchaure
         </motion.h1>
 
 
       {/* Typing Animation */}
       <TypeAnimation
         sequence={[
+          2000,
           "Full Stack Developer",
           2000,
-          "AI/ML Enthusiast",
+          "Java | Python | SQL | React ",
           2000,
-          "Python & MERN Stack Dev",
+          "AWS | Docker | Kubernetes ",
           2000,
         ]}
         wrapper="span"
@@ -56,7 +57,7 @@ export default function Hero() {
       {/* Social Icons */}
       <div className="flex gap-6 mt-6 text-2xl">
         <a
-          href="https://github.com/Siddharth0317"
+          href="https://github.com/Rishikesh5577"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 dark:text-white hover:text-blue-500"
@@ -64,7 +65,7 @@ export default function Hero() {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/siddharth-031s"
+          href="https://linkedin.com/in/rishikesh-wakchaure-06055524b"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-700 hover:text-blue-500"
@@ -74,8 +75,9 @@ export default function Hero() {
         
       </div>
           <a
-            href = {Resume}
-            download
+            href = "https://drive.google.com/file/d/1TchtZ8YMEBRoB89C-_KlFkXue1ENeXh8/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-6 px-6 py-2 rounded-xl bg-sky-500/30 text-white backdrop-blur-md border border-sky-300 hover:bg-sky-500/50 hover:scale-105 hover:shadow-[0_0_15px_#0ea5e9] transition-all duration-300 ease-in-out"
           >
             📄 Download Resume

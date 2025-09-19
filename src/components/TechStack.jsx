@@ -5,21 +5,19 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJsSquare,
-  FaGitAlt,
   FaJava,
+  FaAws,
+  FaDocker,
 } from "react-icons/fa";
 import {
   SiMongodb,
   SiExpress,
   SiTailwindcss,
-  SiNumpy,
-  SiPandas,
-  SiScikitlearn,
-  SiTensorflow,
-  SiFastapi,
-  SiPostgresql,
   SiMysql,
   SiVite,
+  SiKubernetes,
+  SiScikitlearn,
+  SiTensorflow,
 } from "react-icons/si";
 
 export default function TechStack() {
@@ -31,7 +29,6 @@ export default function TechStack() {
       <Category title="Languages & Core Tools" skills={[
         { name: "Python", icon: <FaPython className="text-yellow-500" /> },
         { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
-        { name: "SQL", icon: <SiMysql className="text-blue-700" /> },
         { name: "Java", icon: <FaJava className="text-red-500" /> },
       ]} />
 
@@ -44,17 +41,23 @@ export default function TechStack() {
       ]} />
 
       {/* Category: AI & ML */}
-      <Category title="AI / Machine Learning" skills={[
-        { name: "Scikit-learn", icon: <SiScikitlearn className="text-orange-500" /> },
-        { name: "FastAPI (for ML APIs)", icon: <SiFastapi className="text-green-700" /> },
+      <Category title="AI & ML" skills={[
+        { name: "Machine Learning", icon: <SiScikitlearn className="text-orange-500" /> },
+        { name: "Deep Learning", icon: <SiTensorflow className="text-amber-500" /> },
       ]} />
 
-      {/* Category: Python Libraries */}
-      <Category title="Python Libraries" skills={[
-        { name: "NumPy", icon: <SiNumpy className="text-purple-500" /> },
-        { name: "Pandas", icon: <SiPandas className="text-sky-700" /> },
+      {/* Category: Database */}
+      <Category title="Database" skills={[
+        { name: "MySQL", icon: <SiMysql className="text-blue-700" /> },
+        { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
       ]} />
 
+      {/* Category: Cloud & DevOps */}
+      <Category title="Cloud & DevOps" skills={[
+        { name: "AWS", icon: <FaAws className="text-orange-500" /> },
+        { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
+        { name: "Kubernetes", icon: <SiKubernetes className="text-blue-500" /> },
+      ]} />
 
       {/* Category: Web Design & Productivity */}
       <Category title="Web Design & Tools" skills={[
