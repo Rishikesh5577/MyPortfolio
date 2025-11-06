@@ -13,7 +13,7 @@ const desiredCertificates = [
   { pattern: "AWSGFG_Certificate.pdf", title: "AWS Cloud Practitioner" },
   { pattern: "Java Foundation.pdf", title: "Java Foundation Certificate" },
   { pattern: "Infosys_sql.pdf", title: "Infosys SQL Certificate" },
-  { pattern: "eCertificateOracleCertifiedFoundationsAssociate.pdf", title: "Oracle Cloud Infrastructure" },
+  { pattern: "eCertificate.pdf", title: "Oracle Cloud Infrastructure 2025 Certified DevOps Professional" },
   { pattern: "AmrutExpo.pdf", title: "Amrut Expo Winner Certificate" },
   { pattern: "Deloitte_Data_Analytics.pdf", title: "Delloite Data Analytics Intership" },
   { pattern: "IBM_Certificate.pdf", title: "IBM Certificate" },

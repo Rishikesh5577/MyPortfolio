@@ -4,6 +4,16 @@ import ProjectModal from "./ProjectModal";
 // Projects for Rishikesh Wakchaure
 const projects = [
   {
+    title: "SareeSansar - Online Saree Shopping Platform",
+    description:
+      "Developed a full-stack eCommerce platform for saree shopping with product categorization, search, filtering, cart, checkout, payment gateway, and an Admin Panel for managing products, orders, and users. Built secure backend APIs (Node.js, Express.js, MongoDB), tested via Postman, and implemented a fully responsive UI using React.js and Tailwind CSS.",
+    github: "",
+    live: "https://sareesansaaar-1.onrender.com/",
+    image: null,
+    skills: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Postman", "Payment Gateway", "Admin Panel"],
+    status: "Live",
+  },
+  {
     title: "One Cut's Unisex Salon (Freelance Project)",
     description:
       "A professional salon website built with React and Vite, featuring service listings, appointment booking, and gallery. Responsive design for all devices.",
