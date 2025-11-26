@@ -80,7 +80,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="mt-6 px-6 py-2 rounded-xl bg-sky-500/30 text-white backdrop-blur-md border border-sky-300 hover:bg-sky-500/50 hover:scale-105 hover:shadow-[0_0_15px_#0ea5e9] transition-all duration-300 ease-in-out"
           >
-            📄 Download Resume
+           📄 Download Resume
           </a>
 
     </section>

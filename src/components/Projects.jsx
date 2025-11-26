@@ -4,6 +4,16 @@ import ProjectModal from "./ProjectModal";
 // Projects for Rishikesh Wakchaure
 const projects = [
   {
+    title: "Dynamic World - Education Platform",
+    description:
+      "During Kodeo Internship Contributed in Developed and enhanced the Dynamic World website using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented interactive components for services, career guidance, and admission support, ensuring a responsive UI/UX. Managed website deployment and hosting on AWS, ensuring smooth performance and uptime. Used Git for version control to collaborate with the team and maintain codebase integrity. Integrated dynamic content updates, including live notifications for JEE Main registration and admission updates.",
+    github: "",
+    live: "https://www.dynamicworld.in/",
+    image: null,
+    skills: ["MongoDB", "Express.js", "React.js", "Node.js", "AWS", "Git", "Responsive Design", "Dynamic Content"],
+    status: "Live",
+  },
+  {
     title: "SareeSansar - Online Saree Shopping Platform",
     description:
       "Developed a full-stack eCommerce platform for saree shopping with product categorization, search, filtering, cart, checkout, payment gateway, and an Admin Panel for managing products, orders, and users. Built secure backend APIs (Node.js, Express.js, MongoDB), tested via Postman, and implemented a fully responsive UI using React.js and Tailwind CSS.",
@@ -61,6 +71,36 @@ const projects = [
     live: "",
     image: null,
     skills: ["React", "Vite", "YOLOv8", "Python", "OpenCV", "Deep Learning"],
+    status: "Completed",
+  },
+  {
+    title: "Simple Notes App for TWS Community",
+    description:
+      "Developed a user-friendly notes application with features for creating, editing, and managing notes, deployed with Docker and Nginx for high performance.",
+    github: "https://github.com/Rishikesh5577/django-notes-app.git",
+    live: "",
+    image: null,
+    skills: ["React", "AWS", "Docker", "Nginx"],
+    status: "Completed",
+  },
+  {
+    title: "Lenslogic - E-commerce Eyeglasses Platform",
+    description:
+      "Developed a full-stack e-commerce platform for eyeglasses using the MERN stack. Features include product catalog, shopping cart, user authentication, order management, and payment integration.",
+    github: "https://github.com/Rishikesh5577/Lenslogic.git",
+    live: "",
+    image: null,
+    skills: ["MongoDB", "Express.js", "React.js", "Node.js", "E-commerce", "Payment Integration", "User Authentication"],
+    status: "Completed",
+  },
+  {
+    title: "InshurAI - Insurance AI Platform",
+    description:
+      "Developed a full-stack insurance platform leveraging AI tools for automated claims processing and risk assessment. Integrated intelligent algorithms to enhance insurance workflow and decision-making.",
+    github: "https://github.com/Rishikesh5577/InshurAI.git",
+    live: "",
+    image: null,
+    skills: ["Java", "React", "Spring Boot", "AI Tools", "Machine Learning", "REST APIs", "Full-Stack Development"],
     status: "Completed",
   },
 ];
