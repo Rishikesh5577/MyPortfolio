@@ -9,7 +9,7 @@ export default function SocialLinks() {
       <a href="https://linkedin.com/in/rishikesh-wakchaure-06055524b" target="_blank" rel="noreferrer">
         <FaLinkedin size={28} />
       </a>
-      <a href="https://drive.google.com/file/d/1yLezZ7ltg8p_f1WwTyYw5btN7yxVzzhI/view?usp=drive_link" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1nvwUxjR-vELyPWrxXe2T0HTFcv9fBm0t/view?usp=sharing" target="_blank" rel="noreferrer">
         <FaCode size={28} />
       </a>
     </div>

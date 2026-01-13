@@ -75,7 +75,7 @@ export default function Hero() {
         
       </div>
           <a
-            href = "https://drive.google.com/file/d/1AT16JA04geftk5bfYXLHT-xRUrO6CvoV/view?usp=sharing"
+            href = "https://drive.google.com/file/d/1nvwUxjR-vELyPWrxXe2T0HTFcv9fBm0t/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 px-6 py-2 rounded-xl bg-sky-500/30 text-white backdrop-blur-md border border-sky-300 hover:bg-sky-500/50 hover:scale-105 hover:shadow-[0_0_15px_#0ea5e9] transition-all duration-300 ease-in-out"
