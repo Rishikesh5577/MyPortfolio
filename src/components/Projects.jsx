@@ -14,6 +14,16 @@ const projects = [
     status: "Live",
   },
   {
+    title: "RestroBazaar – Food Packaging Restaurant Supplies Platform",
+    description:
+      "Built a responsive eCommerce platform enabling users to browse packaging products with category-based listings and serviceable city selection. Developed using the MERN stack with AWS deployment for scalable performance and reliable hosting.",
+    github: "",
+    live: "https://restrobazaar.in/",
+    image: null,
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "AWS", "eCommerce", "Responsive Design"],
+    status: "Live",
+  },
+  {
     title: "SareeSansar - Online Saree Shopping Platform",
     description:
       "Developed a full-stack eCommerce platform for saree shopping with product categorization, search, filtering, cart, checkout, payment gateway, and an Admin Panel for managing products, orders, and users. Built secure backend APIs (Node.js, Express.js, MongoDB), tested via Postman, and implemented a fully responsive UI using React.js and Tailwind CSS.",
@@ -133,8 +143,8 @@ export default function Projects() {
               key={index} 
               className="border-2 border-green-500 p-2 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
               style={{
-                backgroundColor: index === 0 ? '#f0fdf4' : 'transparent',
-                borderColor: index === 0 ? '#10b981' : '#60a5fa',
+                backgroundColor: '#f0fdf4',
+                borderColor: '#10b981',
               }}
             >
               <div className="text-center font-bold mb-2 text-sm text-green-700">
