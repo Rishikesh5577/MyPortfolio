@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Dynamic World - Education Platform",
     description:
-      "During Kodeo Internship Contributed in Developed and enhanced the Dynamic World website using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented interactive components for services, career guidance, and admission support, ensuring a responsive UI/UX. Managed website deployment and hosting on AWS, ensuring smooth performance and uptime. Used Git for version control to collaborate with the team and maintain codebase integrity. Integrated dynamic content updates, including live notifications for JEE Main registration and admission updates.",
+      "During Gamotech It and Web Solutions Internship Contributed in Developed and enhanced the Dynamic World website using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented interactive components for services, career guidance, and admission support, ensuring a responsive UI/UX. Managed website deployment and hosting on AWS, ensuring smooth performance and uptime. Used Git for version control to collaborate with the team and maintain codebase integrity. Integrated dynamic content updates, including live notifications for JEE Main registration and admission updates.",
     github: "",
     live: "https://www.dynamicworld.in/",
     image: null,

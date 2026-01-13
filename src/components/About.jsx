@@ -59,13 +59,13 @@ export default function About() {
           </ul>
         </div>
 
-        {/* Kodeo Internship */}
+        {/* Gamotech It and Web Solutions Internship */}
         <div className="bg-gray-100 dark:bg-gray-800 p-5 rounded-xl shadow mb-6">
           <h4 className="text-xl font-semibold dark:text-white">
-            Kodeo Software Technology Pvt. Ltd.
+            Gamotech It and Web Solutions
           </h4>
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            Associate Software Developer Intern • May 2025 – Aug 2025 • Pune
+            Associate Software Developer Intern • Current • Pune
           </p>
           <ul className="list-disc ml-6 mt-3 text-gray-700 dark:text-gray-300 space-y-1">
             <li>Developed reusable UI components and optimized REST APIs.</li>
